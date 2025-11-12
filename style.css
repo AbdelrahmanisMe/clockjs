@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 15rem;
+    padding:0;
+    background-color: pink;
+    background-image: url(blurred-gradient-background-pink-color.jpg);
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 12rem;
+    width: 28rem;
+    background-color: rgb(189, 182, 182);
+    border: 1px solid outset;
+    border-radius: 6px;
+}
+.timer{
+    margin-top: -2.2rem;
+}
+.clock span{
+    color: black;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: serif;
+}
+
+.date span{
+    color: rgb(39, 39, 39);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: serif;
+}
