@@ -28,6 +28,7 @@ setInterval(() => {
         if(hours<10){h.innerText=`0${hours}`};
 }, 1);
 sun=time.getDay();
+console.log(sun)
 switch (sun) {
         case 0:
                 dayname.innerText="Saturday";

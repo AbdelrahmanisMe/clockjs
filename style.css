@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 1rem;
     align-items: center;
     height: 12rem;
     width: 28rem;
@@ -35,4 +36,13 @@ body{
     font-size: 2.5rem;
     font-weight: bolder;
     font-family: serif;
+}
+
+footer{
+    color:wheat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 4rem;
 }
