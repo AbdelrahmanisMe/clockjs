@@ -28,27 +28,28 @@ setInterval(() => {
         if(hours<10){h.innerText=`0${hours}`};
 }, 1);
 sun=time.getDay();
+console.log(sun);
 console.log(sun)
 switch (sun) {
-        case 0:
+        case 6:
                 dayname.innerText="Saturday";
                 break;
-        case 1:
+        case 0:
                 dayname.innerText="Sunday";
                 break;        
-        case 2:
+        case 1:
                 dayname.innerText="Monday";
                 break;
-        case 3:
+        case 2:
                 dayname.innerText="Tuesday";
                 break;
-        case 4:
+        case 3:
                 dayname.innerText="Wnesday";
                 break;
-        case 5:
+        case 4:
                 dayname.innerText="thursday";
                 break;
-        case 6:
+        case 5:
                 dayname.innerText="Friday";
                 break;
         default:
