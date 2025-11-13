@@ -3,10 +3,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    margin: 15rem;
+    margin: 5rem;
     padding:0;
-    background-color: pink;
-    background-image: url(blurred-gradient-background-pink-color.jpg);
+    transition:all 0.8s ease;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-y: hidden;
+}
+body.light{
+    background-color: white;
+    color: black;
+}
+body.dark{
+    background-color: black;
+    color: white;
 }
 .clock{
     display: flex;
@@ -16,15 +25,11 @@ body{
     align-items: center;
     height: 12rem;
     width: 28rem;
-    background-color: rgb(189, 182, 182);
-    border: 1px solid outset;
-    border-radius: 6px;
 }
 .timer{
     margin-top: -2.2rem;
 }
 .clock span{
-    color: black;
     font-size: 4rem;
     font-weight: bolder;
     font-style: italic;
@@ -32,17 +37,27 @@ body{
 }
 
 .date span{
-    color: rgb(39, 39, 39);
     font-size: 2.5rem;
-    font-weight: bolder;
+    font-weight: 900;
     font-family: serif;
 }
 
-footer{
-    color:wheat;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.button{
+    color:#fff;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
     font-size: 1.3rem;
-    font-weight: 900;
+    cursor: pointer;
     font-style: italic;
-    margin-top: 4rem;
+    margin-top: 7rem;
+    transition: 0.5s;
+    height: 3rem;
+    width: 18rem;
+}
+.button:hover{
+    transform: scale(1.0s);
+    height: 3.3rem;
+    width: 18.4rem;
 }

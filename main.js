@@ -55,3 +55,18 @@ switch (sun) {
         default:
         break;
 }
+
+let btn =document.getElementById("btn");
+let body =document.body;
+let todark =document.querySelector(".button");
+
+
+btn.addEventListener("click",()=>{
+        if(body.classList.contains("light")){
+                body.classList.replace("light","dark");
+                btn.innerText="Switch To LightMode";
+        }else{
+                body.classList.replace("dark","light");
+                btn.innerText="Switch To Darkmode";
+        }
+});
